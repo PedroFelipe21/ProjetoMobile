@@ -10,17 +10,17 @@ O **MyStudent** é um aplicativo Android nativo desenvolvido para facilitar o ge
 
 ---
 
-## 🎯 Funcionalidades Principais
+##  Funcionalidades Principais
 
-* **🔒 Sistema de Autenticação:** Tela de login e cadastro de novos usuários com validação de campos em tempo real.
-* **📚 CRUD de Cursos:** Cadastro, listagem, edição popup e exclusão em tempo real de cursos (com campos de Nome, Duração e Turno).
-* **👨‍🎓 CRUD de Alunos:** Cadastro completo de alunos integrado com os cursos disponíveis.
-* **⚡ Gerador de Matrícula:** Botão automatizado com lógica aleatória para geração instantânea do número de matrícula do aluno.
-* **🔄 Interface Reativa:** Listagem dinâmica via Adapters customizados que atualizam a tela imediatamente após qualquer alteração (Update/Delete).
+* ** Sistema de Autenticação:** Tela de login e cadastro de novos usuários com validação de campos em tempo real.
+* ** CRUD de Cursos:** Cadastro, listagem, edição popup e exclusão em tempo real de cursos (com campos de Nome, Duração e Turno).
+* ** CRUD de Alunos:** Cadastro completo de alunos integrado com os cursos disponíveis.
+* ** Gerador de Matrícula:** Botão automatizado com lógica aleatória para geração instantânea do número de matrícula do aluno.
+* ** Interface Reativa:** Listagem dinâmica via Adapters customizados que atualizam a tela imediatamente após qualquer alteração (Update/Delete).
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 | Tecnologia | Descrição |
 | :--- | :--- |
@@ -31,7 +31,7 @@ O **MyStudent** é um aplicativo Android nativo desenvolvido para facilitar o ge
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados (SQLite)
+##  Estrutura do Banco de Dados (SQLite)
 
 O aplicativo gerencia silenciosamente um banco de dados local chamado `mystudent` contendo três tabelas principais de forma unificada:
 
