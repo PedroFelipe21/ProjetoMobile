@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNomeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Aluno"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/txtEmailItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aluno@email.com"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMatriculaItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mat: 123456"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtCursoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso"
+            android:textSize="13sp"
+            android:textColor="#3BA0E2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnEditarItem"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:text="E"
+            android:textSize="12sp"
+            android:padding="0dp"
+            android:backgroundTint="#E5BE40"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="4dp" />
+
+        <Button
+            android:id="@+id/btnExcluirItem"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:text="X"
+            android:textSize="12sp"
+            android:padding="0dp"
+            android:backgroundTint="#FF5252"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

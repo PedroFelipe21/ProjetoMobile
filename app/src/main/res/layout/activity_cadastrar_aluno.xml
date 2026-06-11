@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/tvTituloAluno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aluno"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#3BA0E2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+            <EditText
+                android:id="@+id/etNomeAluno"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nome completo do aluno"
+                android:inputType="textPersonName"
+                android:background="@android:drawable/edit_text"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+            <EditText
+                android:id="@+id/etEmailAluno"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="exemplo@email.com"
+                android:inputType="textEmailAddress"
+                android:background="@android:drawable/edit_text"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Nasc"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+            <EditText
+                android:id="@+id/etDataNasc"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="DD/MM/AAAA"
+                android:inputType="date"
+                android:background="@android:drawable/edit_text"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Matrícula"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+            <EditText
+                android:id="@+id/etMatricula"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Digite o número da matrícula"
+                android:inputType="number"
+                android:background="@android:drawable/edit_text"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="12dp" />
+            <Button
+                android:id="@+id/btnGerarMatricula"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="8dp"
+                android:text="Gerar"
+                android:textSize="14sp"
+                android:backgroundTint="#546E7A"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curso"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+            <Spinner
+                android:id="@+id/spCursosAluno"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnSalvarAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Aluno"
+            android:backgroundTint="#3BA0E2"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
